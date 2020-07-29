@@ -1,0 +1,310 @@
+body {
+    margin: 0px; 
+}
+html {
+    scroll-behavior: smooth;
+}
+#whole {
+    background-image:url("Background.png"); 
+    width:100%; 
+    height:100%; 
+}
+.left {
+    width:25%; 
+}
+.right {
+    width:25%; 
+}
+.side_lobster {
+    color:white; 
+    font-family:Lobster; 
+    font-size:40px;
+}
+.side_abril_fatface {
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    font-size:40px; 
+    text-shadow: 2px 2px #45818e;
+}
+.center_abril_fatface_white {
+    line-height:1.0; 
+    color:white; 
+    font-family:Abril Fatface; 
+    font-size:50px; 
+    text-shadow: 2px 2px #ababab;
+}
+.center_lobster {
+    line-height:1.0; 
+    color:white; 
+    font-family:Lobster; 
+    font-size:50px;
+}
+.side {
+    line-height:1.0; 
+}
+#center {
+    line-height:0.75; 
+}
+#top {
+    width:100%; 
+}
+.top_left {
+    width:30%; 
+}
+.top_right {
+    width:30%; 
+}
+#top_center {
+    background-color:red; 
+}
+.name {
+    line-height:1.0; 
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    font-size:80px; 
+    text-shadow: 3px 3px #45818e;
+}
+.university {
+    line-height:1.0; 
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    text-shadow: 2px 2px #45818e;
+    font-size:50px; 
+}
+.first_last_letter_name {
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    font-size:120px; 
+}
+.first_last_letter_uni {
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    font-size:75px; 
+    display:inline; 
+}
+#center span {
+    text-decoration:none;     
+    display: inline-block;
+    transform: scaleX(1.11);
+}
+#left_pdf {
+    float:left; 
+}
+#right_pdf {
+    float:right; 
+}
+.pdf {
+    font-size:30px; 
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#a2c4c9;
+}
+.pdf:hover {
+    -webkit-text-stroke-color:white;
+}
+.side_abril_fatface:hover {
+    color:white; 
+    text-shadow: 2px 2px #ababab;
+}
+span {
+    transform: scaleY(0.65);
+    display: block;
+}
+a {
+    text-decoration:none;         
+}
+hr {
+    height:5px; 
+    border:none; 
+    background-color:white; 
+}
+#about_me {
+    height:100%; 
+    width:100%;
+    padding:0px; 
+    background-image:url("AboutMe.png");
+}
+#about_me_table {
+    height:100%; 
+    width:100%;
+
+}
+#projects {
+    height:100%; 
+    width:100%;
+    background-image:url("Projects.png");
+}
+#about_me_top {
+    width:100%;
+    height:40%; 
+}
+#about_me_bottom_table {
+    width:100%;
+    height:60%; 
+}
+.contact_info {
+    color:#0b5394; 
+}
+.phone {
+    font-size:40px; 
+}
+.email {
+    font-size:25px; 
+}
+.contact_info_ep {
+    display: block;
+    transform: scaleX(0.8);
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    text-shadow: 2px 2px #45818e;
+}
+.center_lobster {
+    color:#a2c4c9; 
+    font-size:90px; 
+}
+.about_hr {
+    background-color:#a2c4c9; 
+}
+#about_top {
+    width:100%;
+}
+.introduce {
+    line-height:0.7;
+    color:#0b5394; 
+    font-size:75px; 
+    display:inline block; 
+    transform: scaleX(1.11);
+    text-shadow:2px 2px #073763;
+}
+.introduce_f_l {
+    font-size:90px; 
+    color:#0b5394; 
+    transform: scaleX(1.11);
+}
+.myself {
+    line-height:1.5; 
+    color:#a2c4c9; 
+    font-family:Abril Fatface; 
+    font-size:50px; 
+    text-shadow: 2px 2px #45818e;
+}
+.about_me_bottom {
+    padding:3%; 
+    width:50%;
+}
+.box {
+    width:100%; 
+    height:100%; 
+    background-image:url("Box.png"); 
+    background-size: 100% 100%; 
+}
+#white_box {
+    background-image:url("WhiteBox.png"); 
+}
+.box_header {
+    text-shadow:1px 1px #073763;
+    color:#0b5394; 
+    line-height:1.5;
+    font-size:40px; 
+    transform: scaleX(1.05);
+}
+.box_info {
+    text-shadow:1px 1px #ababab;
+    color:#ffffff; 
+    line-height:1.1;
+    font-size:13px; 
+    margin-left:13%; 
+    margin-right:13%; 
+    transform: scaleX(1.05);
+}
+.box_info_r {
+    line-height:1.1;
+    font-size:16px; 
+}
+#about_next {
+    display:inline; 
+    font-size:15px; 
+}
+#objective {
+    font-size:23px; 
+    line-height:1.0;
+}
+#project_table {
+    width: 100%; 
+    height: 100%; 
+}
+#project_top {
+    height:50%; 
+}
+#project_bottom {
+    height:50%; 
+}
+#project_header_top {
+    width:100%; 
+    margin-top:0px; 
+}
+#comesee {
+    transform:scaleX(1.0); 
+    text-shadow: 2px 2px #45818e;
+}
+#my{
+    color:#0b5394; 
+    font-size:75px; 
+    line-height:0.75; 
+}
+.projects_header {
+    font-size:90px; 
+    color:#ffffff; 
+    display:inline; 
+    text-shadow: 3px 3px #45818e;
+}
+.GITHUB {
+    font-size:30px; 
+    color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#ffffff;
+}
+#white_box_center {
+    padding-bottom:3%; 
+}
+.arrow {
+    color:#0b5394;
+    font-size:45px; 
+}
+#l_arrow {
+    margin-right:-15%; 
+}
+#r_arrow {
+    margin-left:-15%; 
+}
+#project_head{
+    transform:scaleX(1.11);
+    text-shadow:1px 1px #073763;
+}
+#WhiteBoxWrap {
+    transform:scaleX(0.7); 
+    text-align:left; 
+    color:#a2c4c9;
+    text-shadow: 1px 1px #45818e;
+    font-size:30px; 
+}
+.arrow:hover {
+    color:white; 
+}
+#about_next:hover{
+    color:white; 
+}
+#project_link {
+    color:#a2c4c9;
+}
+.left span:hover ~ .right{
+    color:white; 
+}
+.GITHUB {
+    font-size:35px; 
+    display:block; 
+    transform:scaleX(1.2);
+}
+.GITHUB:hover {
+    -webkit-text-stroke-color:#0b5394;
+}
